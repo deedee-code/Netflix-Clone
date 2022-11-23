@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.brand__logo {
+    width: 100px;
+    height: 100%;
+}
+
+nav button {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 8px 0px 0px;
+    padding: 7px 17px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: o;
+    width: 100%;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.main_image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main_image-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%,
+    );
+}
+
+#content h1 {
+    width: 1500px;
+    height: 50px;
+    font-size: 50px;
+    margin: 0px 32.5px;
+}
+
+#content h2 {
+    width: 1400px;
+    height: 33px;
+    font-size: 26px;
+    margin: 16px 32.5px;
+}
+
+#content h3 {
+    width: 1300px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0px 57px;
+    padding: 0px 70.5px;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    padding: 10px 10px 0px;
+}
+
+#main button {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    background-color: red;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+#main {
+    display: flex;
+    width: 1400px;
+    height: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_content {
+    position: absolute;
+    top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 75px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.main_page {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.feature_tv {
+    border-top: 7px solid rgb(92, 82, 82);
+    display: flex;
+    width: 795;
+    height: 500;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tv_main h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+    width: 705px;
+    height: 44px;
+}
+
+#tv_main h2 {
+    font-size: 20px;
+    width: 705px;
+    height: 50px;
+    margin: 15px 0px 5px;
+}
+
+#tv_main {
+    width: 705px;
+    height: 114px;
+    text-align: center;
+}
+
+.tv img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.tv_video {
+    position: absolute;
+    width: 100%;
+    top: 130%;
+    left: 60%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    z-index: -2;
+}
+
+.video {
+    width: 50%;
+}
+
+.feature_shows {
+    border-top: 7px solid rgb(92, 82, 82);
+    display: flex;
+    width: 795;
+    height: 500;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shows {
+    width: 600px;
+    height: 114px;
+    text-align: center;
+}
+
+.shows h1 {
+    font-size: 40px;
+    margin: 0px 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.shows h2 {
+    font-size: 20px;
+    width: 600px;
+    height: 50px;
+    margin: 15px 0px 5px;
+}
+
+.mobile {
+    width: 100%;
+    position: relative;
+}
+
+.mobile image {
+    width: 100%;
+}
+
+.poster_image {
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    height: 120px;
+    padding: 0.25rem 0.6rem;
+    gap: 15px;
+}
+
+.poster_pic {
+    width: 30%
+}
+
+.poster {
+    width: 60%;
+    height: 100%;
+}
+
+.poster__details {
+    width: 60%;
+}
+
+.poster__details > h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.poster__details > h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(63, 63, 246);
+}
+
+.download__gif {
+    width: 20%;
+    height: 100%;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+}
+
+.feature_watch {
+    border-top: 7px solid rgb(92, 82, 82);
+    width: 795;
+    height: 500;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch {
+    width: 705px;
+    height: 114px;
+    text-align: center;
+}
+
+.watch h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+    width: 705px;
+    height: 44px;
+}
+
+.watch h2 {
+    font-size: 20px;
+    width: 705px;
+    height: 50px;
+    margin: 15px 0px 5px;
+}
+
+.feature_kids {
+    border-top: 7px solid rgb(92, 82, 82);
+    display: flex;
+    width: 795;
+    height: 500;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kids {
+    width: 705px;
+    height: 114px;
+    text-align: center;
+}
+
+.kids h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+    width: 705px;
+    height: 44px;
+}
+
+.kids h2 {
+    font-size: 20px;
+    width: 705px;
+    height: 50px;
+    margin: 15px 0px 5px;
+}
+
+.feature_kids img {
+    width: 600px;
+    height: 450px;
+}
+
+.FAQ {
+    border-top: 7px solid rgb(92, 82, 82);
+    width: 795;
+    height: 672;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FAQ h1 {
+    text-align: center;
+    margin: 1rem 3rem;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+
+
+.FAQ h3 {
+    width: 1300px;
+    height: 40px;
+    font-size: 15px;
+    margin: 50px 57px 10px 57px;
+    padding: 0px 70.5px;
+    text-align: center;
+}
+
+.FAQ_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.FAQ_accordian {
+    
+}
+
+.FAQ button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #303030;
+    border: 1px solid #303030;
+    font-size: 20px;
+    color: white;
+}
+
+.visible {
+    background-color: #303030;
+    border-top: 1px solid black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.visible {
+    margin: 1rem;
+}
+
+footer {
+    border-top: 7px solid rgb(92, 82, 82);
+    width: 795;
+    height: 300px;
+    padding: 70px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 82, 82);
+}
+
+table, tr, td {
+    padding: 10px 100px 10px 20px;
+}
+
+footer p {
+    padding: 50px;
+}
